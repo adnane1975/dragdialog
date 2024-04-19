@@ -24,7 +24,7 @@ export default function Home() {
         <Button color={open?'error':'success'} 
         startIcon={open?<HighlightOffIcon />:<OpenInNewIcon/>}
         variant="outlined" onClick={()=>handleOpen(!open)}>
-        Open dialog
+        {open ? "close" : "open"} dialog
        </Button>
       </div>
     </main>
