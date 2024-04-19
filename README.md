@@ -1,13 +1,15 @@
-This is a code snippet showing the use of Dialog ( https://mui.com/material-ui/react-dialog/ ) of react/mui
-with this 3 features:
+This is a code snippet demonstrating the use of the Dialog component from Material-UI (MUI) in React, showcasing these three features:
 
-- Open and close from outside
-- Drag and drop the dialog
-- Non modal: you can click outside the dialog without closing it
+- Opening and closing the dialog from outside.
+- Drag-and-drop functionality for the dialog (drag from the dialog title).
+- Non-modal behavior: clicking outside the dialog does not close it, allowing you to interact with the backdrop.
+
+You can find more details about the Dialog component [here](https://mui.com/material-ui/react-dialog/).
+
 
 ## Getting Started
 
-First, run the development server:
+Run the development server:
 
 ```bash
 git clone https://github.com/adnane1975/dragdialog.git
@@ -16,8 +18,5 @@ yarn dev
 
 ```
 
-and then: <a href="http://localhost:3000" target="_blank" rel="noreferrer">http://localhost:3000</a>
-
-
-
+and then : [http://localhost:3000](http://localhost:3000)
 
