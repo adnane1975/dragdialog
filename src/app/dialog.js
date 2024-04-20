@@ -19,7 +19,7 @@ const BootstrapDialog = styled(Dialog)(({ theme }) => ({
   '& .MuiDialogActions-root': {
     padding: theme.spacing(1),
   },
-  zIndex: 1300,
+
   pointerEvents:'none'
 }));
 
@@ -65,7 +65,7 @@ export default function CustomizedDialogs(props) {
         PaperProps={{ style: { pointerEvents: 'auto' } }}
       >
         <DialogTitle sx={{ m: 0, p: 2 }} id="customized-dialog-title">
-          Modal title
+          Draggable / Non Modal & more
         </DialogTitle>
         <IconButton
           aria-label="close"
